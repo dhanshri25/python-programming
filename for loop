@@ -1,0 +1,16 @@
+#example 1
+x = ['navin', 23, 4.4]
+
+for i in x:
+    print(i)
+
+#example 2
+x = 'DHANSHRI'
+
+for i in x:
+    print(i, end="")
+
+#example 3
+for i in range(1,21):
+    if i % 5==0:
+         print(i)
