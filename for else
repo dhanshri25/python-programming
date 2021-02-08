@@ -1,0 +1,8 @@
+nums = [123,35,14,12,62]
+
+for nums in nums:
+    if nums % 5 == 0:
+        print(nums)
+        break
+    else:
+        print("Not found")
