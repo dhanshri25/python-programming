@@ -1,0 +1,30 @@
+#example 1
+from array import *
+vals = array('i', [2, -4, 6, 8, 9])
+vals.reverse()
+print(vals)
+
+
+#example 2
+from array import *
+vals = array('i', [2, -4, 6, 8, 9])
+
+for i in range(5):
+    print(vals[i])
+
+
+#example 3
+from array import *
+vals = array('u', ['a','e','i','o','u'])
+
+for i in vals:
+    print(i)
+
+#example 4
+from array import *
+vals = array('i', [2, -4, 6, 8, 9])
+
+newArr = array(vals.typecode,(a*3 for a in vals))
+
+for i in newArr:
+    print(i)
