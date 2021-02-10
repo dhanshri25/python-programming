@@ -1,0 +1,42 @@
+
+#example 1
+from numpy import *
+
+arr = array([2, 3, 4, 5, 6], float)
+
+print(arr)
+
+arr = linspace(0, 3)
+
+#example 2
+from numpy import *
+
+arr = linspace(0, 23 ,4)
+
+print(arr)
+
+
+
+#example 3
+from numpy import *
+
+arr = arange(1, 23 ,4)
+
+print(arr)
+
+
+
+#example 4
+from numpy import *
+
+arr = logspace(1 ,40 ,5 )
+
+print(arr)
+
+
+#example 5
+from numpy import *
+
+arr = zeros(5)
+
+print(arr)
